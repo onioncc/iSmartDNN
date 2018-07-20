@@ -4,8 +4,11 @@ This is a repository for FPGA-based neural network inference of iSmart2 team of 
 
 # Repo organization
 DNN_train: The DNN model definition and training scripts
+
 DNN_HLS: The DNN model implemented using Vivado High Level Synthesis (HLS), written in C++.
+
 Host: Host code run on CPU for FPGA control
+
 Overlay: The bitstream and tcl file for FPGA configuration
 
 
