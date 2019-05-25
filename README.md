@@ -13,8 +13,11 @@ Overlay: The bitstream and tcl file for FPGA configuration
 
 # model
 onioncc upload the code in different version
+
 DNN_train: 12layer 256channel
+
 DNN_HLS:   12layer 384channel which may be the model used in the 2018-system-design-contest
+
 Host:maybe 14layer 512channel
 
 you can change the code in the first cell of `ismart2.ipynb` in Host like this:
