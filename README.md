@@ -32,7 +32,7 @@ DDR_buf = xlnk.cma_array(shape=(36, 16, 22, 42), dtype=np.uint16)
 predict_box = xlnk.cma_array(shape=(5,), dtype=np.float32)
 ```
 
-so that it may match the code in `DNN_HLS`.
+so that it may match the model in `DNN_HLS`.
 
 # note
 In `DNN_HLS`,there is `conv_1x1_fl.cc` and `conv_1x1_fl_fix.cc`.I found that `conv_1x1_fl.cc` goes wrong in vivado 2018.3 so I write `conv_1x1_fl_fix.cc` to fix the bug.You can delete `conv_1x1_fl_fix.cc` or delete `conv_1x1_fl.cc` to test which can goes right on your vivado.
